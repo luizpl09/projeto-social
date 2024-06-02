@@ -26,18 +26,26 @@ section#telefone{
     background-size: cover;
 }
 iframe{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    height: 470px;
-    width: 266px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 269px;
 }
 section#Redes-sociais{
     text-align: right;
+    
 }
-img{
+section#Redes-sociais img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     border-radius: 50%;
-    height: 90px;
-    padding: 10px;
+    width: 70px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+section#Redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.323);
+    transition-duration: .5s;
 }
